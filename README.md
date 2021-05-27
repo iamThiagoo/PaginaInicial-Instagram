@@ -4,6 +4,6 @@ Desenvolvi o desafio proposto do bootcamp da Digital Innovation One com a ajuda 
 
 ## Link do projeto: https://iamthiagoo.github.io/PaginaInicial-Instagram/
 
-## Imagens do projeto finalizado
+## Imagem do projeto finalizado
 
 ![Projeto Finalizado](https://user-images.githubusercontent.com/69599810/119759164-245a8180-be7e-11eb-84a7-dc5816793209.png)
