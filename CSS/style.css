@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 90vh;
+    width: 60%;
+}
+
+.celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.celular img{
+    height: 50rem;
+    margin-top: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 34rem;
+    width: 50%;
+}
+
+.group_one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 85%;
+    padding: 1.3em 0;
+    border: 1px solid lightgray; 
+}
+
+.group_one:nth-child(1){
+    height: 22rem;
+    text-align: center;
+}
+
+#login{
+    width: 70%;
+    height: 40px;
+    background-color: #f3f3f3;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+group_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    height: 3rem;
+    margin-bottom: 10px;
+}
+
+#entrar{
+    margin-top: -10px;
+    width: 70%;
+    height: 40px;
+    background-color: #0095f6;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 0;
+    font-size: 15px;
+}
+
+#entrar:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.enter_facebook a{
+    color: #385185;
+}
+
+.enter_facebook p{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.ou{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a{
+    color: #0095f6;
+    font-size: 17px;
+}
+
+a:hover{
+    color: black;
+}
+
+.group_two p{
+    font-size: 20px;
+}
+
+.group_two img{
+    margin-top: 10px;
+    width: 35%;
+}
+
+@media (max-width: 1024px){
+    .wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    body{
+        background-color: white;
+    }
+    .celular{
+        display: none;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    .container{
+        width: 100%;
+    }
+    .group_one{
+        border: 0;
+    }
+}
